@@ -19,7 +19,7 @@
   <body>
    
     <main>
-  <h1 class="visually-hidden">Pokemon</h1>
+  <h1 class="visually-hidden">Pokemon v2</h1>
 
     <div class="b-example-divider"></div>
 

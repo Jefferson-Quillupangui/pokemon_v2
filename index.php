@@ -43,11 +43,11 @@
     </div>
 
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <?php foreach ($data['pokemon_entries'] as $clave => $valor) { ?>
+      <?php foreach ($datkanto['pokemon_entries'] as $clave => $valor) { ?>
         <div class="feature col">
           
-          <div class="feature-icon bg-primary bg-gradient">
-            <img src="resource/pokemons/00<?php echo substr(str_repeat(0, 1).$valor['entry_number'], - 1); ?>.png" class="card-img-top" alt="...">
+          <div class="feature-icon bg-primary bg-gradient"> 
+            <img src="resource/pokemons/<?php echo substr(str_repeat(0, 1).$valor['entry_number'], - 3); ?>.png" class="card-img-top" alt="...">
           </div>
           <h2><?php echo  $nombre =  $valor['pokemon_species']['name']." ";  ?></h2>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
